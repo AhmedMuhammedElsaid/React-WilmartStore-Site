@@ -1,0 +1,25 @@
+@import url("https://fonts.googleeapis.com/css?family=Monsterrat:400,700|Open_Sans");
+
+:root {
+  --primaryColor:#5fb7ea;
+  --primaryRGBA: rgba(0,0,0,0.3);
+  --mainGrey: #fafafa;
+  --darkGrey:#5f5e5e;
+  --mainBlack:#222; 
+  --mainTransition:all 0.3s ease-in-out;
+  --mainSpacing: 0.3rem;
+}
+body{
+  font-family: "Open-Sans",sans-serif ! important;
+  background: var(--mainGrey);
+  color: var(--mainBlack);
+}
+.text-title{
+  font-family: 'Montserrat',sans-serif;
+  font-weight: bold;
+  letter-spacing: var(--mainSpacing);
+  text-transform: capitalize;
+}
+.text-main{
+  color: var(--primaryColor);
+}
