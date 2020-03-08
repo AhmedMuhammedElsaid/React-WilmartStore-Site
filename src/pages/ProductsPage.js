@@ -1,6 +1,6 @@
 import React from 'react'
 import Hero from '../components/Hero'
-import productBcg from '../images/productsBcg.jpeg'
+import productBcg from '../images/productsBcg.webp'
 import Products from '../components/ProductsPage/Products'
 
 
